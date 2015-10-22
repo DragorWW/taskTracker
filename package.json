@@ -1,0 +1,27 @@
+{
+  "name": "task-tracker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "dev": "gulp build",
+    "build": "env NODE_ENV=production gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0",
+    "tough-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.3.2",
+    "deep-merge": "^1.0.0",
+    "gulp": "^3.9.0",
+    "monkey-hot-loader": "0.0.3",
+    "nodemon": "^1.7.3",
+    "source-map-support": "^0.3.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
